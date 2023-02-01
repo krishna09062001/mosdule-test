@@ -1,0 +1,52 @@
+.carousel-indicators
+{
+    position: absolute;
+    top: 850px;
+}
+.carousel-control-prev 
+{
+
+  position:absolute;
+  left:50px;
+  margin-top: 20px;
+  max-height: 800px;
+}
+.carousel-control-next 
+{
+
+  position:absolute;
+  right:50px;
+  margin-top: 20px;
+  max-height: 800px;
+}
+@media  all and (max-width: 400px) {
+    .container-fluid .material-symbols-outlined
+    {
+
+        display: block;
+      }
+    
+}
+.container .card
+{
+
+    height:700px
+ }
+@media screen and (max-width:400px)
+{
+    .container .row
+    {
+       display: flex;
+       flex-direction: column !important;
+       gap: 3px;
+     }
+    form .container
+    {
+        display: flex;
+        flex-direction: column !important;
+        gap: 3px;
+      }
+} 
+
+
+    
